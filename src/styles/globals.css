@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		@apply h-screen w-screen overflow-hidden bg-zinc-200;
+	}
+
+	body {
+		@apply h-full w-full overflow-hidden;
+	}
+
+	#__next {
+		@apply flex h-full w-full gap-5 p-5;
+	}
+}
